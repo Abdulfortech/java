@@ -11,7 +11,7 @@ public class loop {
 //        }
 //        System.out.println("the sum is " + sum);
 
-//        double sum = 0.0; double n = 5;
+//        double sum = 0.0; double n = 2;
 //        while(n <= 100)
 //        {
 //            sum += (1/n);
@@ -67,6 +67,14 @@ public class loop {
 //        {
 //            System.out.println(n + " is not a prime");
 //        }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the name : ");
+        String name = sc.nextLine();
+        System.out.println("my name is : " + name);
+        Double d = sc.nextDouble();
+        Integer i = sc.nextInt();
+        Long l = sc.nextLong();
+        Short s = sc.nextShort();
 
 
     }
